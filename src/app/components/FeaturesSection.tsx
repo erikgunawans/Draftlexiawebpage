@@ -86,7 +86,7 @@ export function FeaturesSection({ onRequestProtocol, activeTab, onTabChange }: F
 
         <div className="max-w-[100rem] mx-auto mb-16 flex flex-col md:flex-row md:items-end justify-between gap-10 relative z-10">
           <div>
-            <h2 className="text-6xl md:text-8xl font-bold mb-8 tracking-tight">
+            <h2 className="text-7xl md:text-9xl font-bold mb-8 tracking-tight">
               {t.features.title} <span className="text-gray-500">{t.features.titleHighlight}</span>
             </h2>
             <p className="text-gray-400 text-xl md:text-2xl max-w-3xl leading-relaxed whitespace-pre-line">
@@ -138,7 +138,7 @@ export function FeaturesSection({ onRequestProtocol, activeTab, onTabChange }: F
             onClick={() => setActiveModal('discovery')}
             className="md:col-span-2 md:row-span-2 group cursor-pointer"
           >
-            <div className="w-full h-full relative overflow-hidden rounded-[2.5rem] bg-[#0A0A0A] border border-white/5 shadow-2xl transition-all duration-500 hover:border-white/10">
+            <div className="w-full h-full relative overflow-hidden rounded-[2.5rem] bg-[#161616] border border-white/10 shadow-2xl transition-all duration-500 hover:border-white/20">
               {/* Spotlight Effect */}
               <div 
                   className="pointer-events-none absolute -inset-px rounded-[2.5rem] opacity-0 transition duration-300 group-hover/grid:opacity-100"
@@ -210,7 +210,7 @@ export function FeaturesSection({ onRequestProtocol, activeTab, onTabChange }: F
             onClick={() => setActiveModal('harmonization')}
             className="group cursor-pointer"
           >
-            <div className="w-full h-full relative overflow-hidden rounded-[2.5rem] bg-[#0A0A0A] border border-white/5 shadow-2xl transition-all duration-500 hover:border-white/10">
+            <div className="w-full h-full relative overflow-hidden rounded-[2.5rem] bg-[#161616] border border-white/10 shadow-2xl transition-all duration-500 hover:border-white/20">
                <div 
                   className="pointer-events-none absolute -inset-px rounded-[2.5rem] opacity-0 transition duration-300 group-hover/grid:opacity-100"
                   style={{
@@ -261,7 +261,7 @@ export function FeaturesSection({ onRequestProtocol, activeTab, onTabChange }: F
             onClick={() => setActiveModal('drafting')}
             className="group cursor-pointer"
           >
-            <div className="w-full h-full relative overflow-hidden rounded-[2.5rem] bg-[#0A0A0A] border border-white/5 shadow-2xl transition-all duration-500 hover:border-white/10">
+            <div className="w-full h-full relative overflow-hidden rounded-[2.5rem] bg-[#161616] border border-white/10 shadow-2xl transition-all duration-500 hover:border-white/20">
              <div 
                   className="pointer-events-none absolute -inset-px rounded-[2.5rem] opacity-0 transition duration-300 group-hover/grid:opacity-100"
                   style={{
@@ -294,7 +294,7 @@ export function FeaturesSection({ onRequestProtocol, activeTab, onTabChange }: F
             onClick={() => setActiveModal('compliance')}
             className="group cursor-pointer"
           >
-            <div className="w-full h-full relative overflow-hidden rounded-[2.5rem] bg-[#0A0A0A] border border-white/5 shadow-2xl transition-all duration-500 hover:border-white/10">
+            <div className="w-full h-full relative overflow-hidden rounded-[2.5rem] bg-[#161616] border border-white/10 shadow-2xl transition-all duration-500 hover:border-white/20">
               <div 
                   className="pointer-events-none absolute -inset-px rounded-[2.5rem] opacity-0 transition duration-300 group-hover/grid:opacity-100"
                   style={{
@@ -332,7 +332,7 @@ export function FeaturesSection({ onRequestProtocol, activeTab, onTabChange }: F
             onClick={() => setActiveModal('risk')}
             className="group cursor-pointer"
           >
-            <div className="w-full h-full relative overflow-hidden rounded-[2.5rem] bg-[#0A0A0A] border border-white/5 shadow-2xl transition-all duration-500 hover:border-white/10">
+            <div className="w-full h-full relative overflow-hidden rounded-[2.5rem] bg-[#161616] border border-white/10 shadow-2xl transition-all duration-500 hover:border-white/20">
                <div 
                   className="pointer-events-none absolute -inset-px rounded-[2.5rem] opacity-0 transition duration-300 group-hover/grid:opacity-100"
                   style={{
@@ -370,7 +370,7 @@ export function FeaturesSection({ onRequestProtocol, activeTab, onTabChange }: F
             onClick={() => setActiveModal('repository')}
             className="group cursor-pointer"
            >
-            <div className="w-full h-full relative overflow-hidden rounded-[2.5rem] bg-[#0A0A0A] border border-white/5 shadow-2xl transition-all duration-500 hover:border-white/10">
+            <div className="w-full h-full relative overflow-hidden rounded-[2.5rem] bg-[#161616] border border-white/10 shadow-2xl transition-all duration-500 hover:border-white/20">
                <div 
                   className="pointer-events-none absolute -inset-px rounded-[2.5rem] opacity-0 transition duration-300 group-hover/grid:opacity-100"
                   style={{

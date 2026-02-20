@@ -40,7 +40,7 @@ export function SovereigntySection() {
         
         {/* Left Content */}
         <div className="flex-1 z-10">
-          <h2 className="text-6xl md:text-8xl font-bold mb-20 tracking-tight leading-tight">
+          <h2 className="text-7xl md:text-9xl font-bold mb-20 tracking-tight leading-tight">
             {t.sovereignty.title} <br />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#78bbfe] to-[#3779f1]">
               {t.sovereignty.titleHighlight}
@@ -90,7 +90,7 @@ export function SovereigntySection() {
             {/* Background Image Card with Depth */}
             <div 
               style={{ transform: "translateZ(0px)" }}
-              className="absolute inset-0 rounded-[3rem] overflow-hidden border border-white/10 shadow-2xl shadow-[#3779f1]/20 bg-[#050505]"
+              className="absolute inset-0 rounded-[3rem] overflow-hidden border border-white/20 shadow-2xl shadow-[#3779f1]/20 bg-[#161616]"
             >
               <div className="absolute inset-0 bg-gradient-to-br from-[#3779f1]/20 to-blue-900/20 mix-blend-overlay z-10" />
               <img 

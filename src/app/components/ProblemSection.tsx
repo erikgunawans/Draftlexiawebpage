@@ -14,7 +14,7 @@ export function ProblemSection() {
     <section className="bg-black text-white py-40 px-8 md:px-16 lg:px-24 min-h-screen flex flex-col justify-center">
       <div className="max-w-[100rem] mx-auto">
         <div className="mb-32 max-w-4xl">
-          <h2 className="text-4xl md:text-6xl font-bold text-gray-400 uppercase tracking-widest mb-12">
+          <h2 className="text-6xl md:text-8xl font-bold text-gray-400 uppercase tracking-widest mb-12">
             {t.problem.sectionTitle} <span className="text-red-600">{t.problem.sectionTitleHighlight}</span>
           </h2>
           <p className="text-gray-400 text-xl md:text-2xl leading-relaxed">
